@@ -1,0 +1,36 @@
+.cat-img-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cat-img-container img {
+  width: 80%;
+  max-width: 300px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.cat-suggestions,
+.cat-categoria1,
+.cat-categoria2 {
+  text-align: center;
+  border-bottom: 3px solid #333;
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1rem;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .cat-img-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cat-img-container img {
+    width: 200px;
+  }
+}

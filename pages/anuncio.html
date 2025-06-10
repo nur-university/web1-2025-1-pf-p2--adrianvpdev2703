@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/shared/fonts.css" />
+    <link rel="stylesheet" href="../css/shared/normalize.css" />
+    <link rel="stylesheet" href="../css/shared/header.css" />
+    <link rel="stylesheet" href="../css/shared/style.css" />
+    <link rel="stylesheet" href="../css/pages/listado-anuncios.css" />
+    <link rel="stylesheet" href="../css/shared/footer.css" />
+    <link
+      rel="stylesheet"
+      href="../css/pages/detalle-anuncio/producto-detalle.css"
+    />
+    <title>Detalle Anuncio</title>
+  </head>
+  <body>
+    <header class="header" id="head">
+      <div class="header-container">
+        <h2 class="header-title">
+          <a href="../index.html">&lt;/&gt; Marketplace</a>
+        </h2>
+        <nav class="menu-nav">
+          <label for="menu-switch" class="menu-nav-label">
+            <i class="fa-solid fa-bars"></i>
+            Menu
+          </label>
+          <input type="checkbox" id="menu-switch" />
+          <ul>
+            <li><a href="#">Anuncios</a></li>
+            <li><a href="#">Mis Anuncios</a></li>
+            <li><a href="#">Guardados</a></li>
+            <li><a href="#">Mensajes</a></li>
+            <li><a href="#">Iniciar Sesión</a></li>
+            <li><a href="#">Regístrate</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <a href="../pages/list-anuncios.html" class="volver"
+      >&larr; Volver a Anuncios</a
+    >
+
+    <section class="producto-detalle-container">
+      <div class="producto-imagen">
+        <img
+          src="../images/main-page-placeholder.jpeg"
+          alt="Imagen del producto"
+        />
+        <div class="imagen-indicadores">
+          <span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+
+      <div class="producto-info">
+        <div class="producto-header">
+          <h2 class="producto-nombre">Producto 1</h2>
+          <span class="producto-precio">0$</span>
+        </div>
+
+        <p class="producto-descripcion">
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium..."
+        </p>
+
+        <div class="producto-vendedor">
+          <i class="fa-solid fa-user"></i>
+          <span>vendedor</span>
+        </div>
+
+        <div class="producto-acciones">
+          <button class="btn mensaje">Enviar Mensaje</button>
+          <button class="btn guardar">Guardar Publicación</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <nav class="foot-nav-bar" id="footer-main">
+          <ul>
+            <li>
+              <a href="#head">| Inicio |</a>
+            </li>
+            <li>
+              <a href="#main-page-cat1">| Sugerencias |</a>
+            </li>
+            <li>
+              <a href="#main-page-cat2">| Ropa Hombre |</a>
+            </li>
+            <li>
+              <a href="#main-page-cat3">| Varios |</a>
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-copy">
+          &copy; 2025 Marketplace. Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+.footer {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  font-family: "Segoe UI Bold", sans-serif;
+  padding-right: 40px;
+  border: 5px red;
+}
+
+.foot-nav-bar ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-copy {
+  padding-left: 65px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .foot-nav-bar ul {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    margin: 0;
+  }
+
+  .foot-nav-bar li a {
+    padding: 0.25rem 0.5rem;
+    font-size: 20px;
+  }
+
+  .footer-copy {
+    padding-top: 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
